@@ -1,4 +1,4 @@
-// src/SignUp.js
+
 import React, { useState } from 'react';
 import './SignUp.css';
 
@@ -18,7 +18,7 @@ const SignUp = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    // Add logic for form submission here
+ 
   };
 
   return (
@@ -64,7 +64,7 @@ const SignUp = () => {
         <div className="form-group">
           <label htmlFor="phoneNumber">Phone Number</label>
           <input
-            type="tel"
+            type="number"
             id="phoneNumber"
             name="phoneNumber"
             value={formData.phoneNumber}

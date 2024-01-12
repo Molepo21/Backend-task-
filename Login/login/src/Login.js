@@ -1,4 +1,4 @@
-// src/Login.js
+
 import React, { useState } from 'react';
 import './Login.css';
 
@@ -16,7 +16,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    // Add logic for login here
+    
   };
 
   return (
